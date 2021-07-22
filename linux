@@ -1,0 +1,4 @@
+#To find files in a folder and copy to new folder
+
+find ./ -name "*.jar" -exec cp "{}" /Users/jathin/Downloads/jar/jar-eclipse  \;
+
